@@ -19,7 +19,7 @@ $(document).ready(function() {
 		$("#login_form").hide();
     });
    
-
+// register
 	$('#butsave').on('click', function() {
         var v = document.getElementById("error");
         emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
@@ -112,7 +112,9 @@ $(document).ready(function() {
 			});
 		}
 		
-	});
+    });
+    
+    // login
 	$('#butlogin').on('click', function() {
         $("#error1").hide();
         var v = document.getElementById("error1");
